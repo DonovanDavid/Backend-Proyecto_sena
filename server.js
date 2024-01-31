@@ -1032,6 +1032,8 @@ server.put('/api/revision/update/:id', (req, res) => {
     req.body.hora +
     "', estado='" +
     req.body.estado +
+    "', observaciones='" +
+    req.body.observaciones +
     "' WHERE idRevision=" +
     req.params.id;
 
